@@ -1,0 +1,57 @@
+﻿@model Admin.Models.PeopleViewModel.PeopleCEViewModel
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="tab-price">
+                        <div class="form-row">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="col-md-6">
+                                @Html.Label("Ad")
+                                @Html.TextBoxFor(m => m.FirstName, new { placeholder = "Ad", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Soyadı")
+                                @Html.TextBoxFor(m => m.LastName, new { placeholder = "Soyadı", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Image Url")
+                                @Html.TextBoxFor(m => m.Image, new { placeholder = "Image Url", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Başlık")
+                                @Html.TextBoxFor(m => m.Title, new { placeholder = "Başlık", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Haber")
+                                @Html.TextBoxFor(m => m.News, new { placeholder = "Haber", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="News" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Açıklama")
+                                @Html.TextBoxFor(m => m.Description, new { placeholder = "Açıklama", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-12">
+                                @Html.Label("Detay")
+                                @Html.TextAreaFor(m => m.Detail, new { placeholder = "Detay", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="Detail" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="float-right mt-2">
+            <button class="btn btn-primary">Kaydet</button>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

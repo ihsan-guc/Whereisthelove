@@ -1,0 +1,9 @@
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.deps.json
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.csprojAssemblyReference.cache
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.AssemblyInfoInputs.cache
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.AssemblyInfo.cs
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.csproj.CoreCompileInputs.cache
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
+C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
