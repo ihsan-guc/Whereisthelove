@@ -10,3 +10,15 @@ C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\
 C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.csproj.CopyComplete
 C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.dll
 C:\Users\EysanGuc\source\repos\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.pdb
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.deps.json
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.dll
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.pdb
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.csprojAssemblyReference.cache
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.AssemblyInfoInputs.cache
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.AssemblyInfo.cs
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.csproj.CoreCompileInputs.cache
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.csproj.CopyComplete
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.dll
+C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Dal\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Dal.pdb

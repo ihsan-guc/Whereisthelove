@@ -1,4 +1,5 @@
 ﻿using Admin.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,8 @@ using System.Threading.Tasks;
 
 namespace Admin.Controllers
 {
+    [Route("Home")]
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,16 +21,19 @@ namespace Admin.Controllers
             _logger = logger;
         }
 
+        [Route("Index")]
         public IActionResult Index()
         {
             return View();
         }
 
+        [Route("Privacy")]
         public IActionResult Privacy()
         {
             return View();
         }
 
+        [Route("Error")]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

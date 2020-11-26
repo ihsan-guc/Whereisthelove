@@ -8408,25 +8408,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EysanGuc\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\fixedbugs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
+      "projectUniqueName": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\Admin.csproj",
       "projectName": "Admin",
-      "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
-      "packagesPath": "C:\\Users\\EysanGuc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\obj\\",
+      "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\Admin.csproj",
+      "packagesPath": "C:\\Users\\fixedbugs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\EysanGuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\fixedbugs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8437,13 +8432,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
-              "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
+            "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
+              "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
             },
-            "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
-              "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
+            "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
+              "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
             }
           }
         }
@@ -8456,7 +8450,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -8485,7 +8478,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

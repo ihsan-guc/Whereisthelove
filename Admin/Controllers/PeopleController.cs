@@ -6,9 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using X.PagedList;
 using Whereisthelove.Data.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
+
 namespace Admin.Controllers
 {
     [Route("People")]
+    [Authorize]
     public class PeopleController : BaseController
     {
         [Route("Index")]
