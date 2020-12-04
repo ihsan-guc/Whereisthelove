@@ -8413,11 +8413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\Admin.csproj",
+      "projectUniqueName": "E:\\Github\\Whereisthelove\\Admin\\Admin.csproj",
       "projectName": "Admin",
-      "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\Admin.csproj",
+      "projectPath": "E:\\Github\\Whereisthelove\\Admin\\Admin.csproj",
       "packagesPath": "C:\\Users\\fixedbugs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\obj\\",
+      "outputPath": "E:\\Github\\Whereisthelove\\Admin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fixedbugs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8432,12 +8432,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
-              "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
+            "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
+              "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
             },
-            "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
-              "projectPath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
+            "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
+              "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
             }
           }
         }
@@ -8450,6 +8451,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -8478,7 +8480,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

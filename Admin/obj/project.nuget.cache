@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwTXMuQ2o1qmBlsFvpY0+UMSthNU9/3uMBk8pOd8NYTN4Z13e6nn0S8jpM0H1J6GiVX92fHp4FtyHmSB5YMz4g==",
+  "dgSpecHash": "lewEQ8YICgw3b9YvUlr0tYQWnxhzSMLM1lZkibO9UBFakydPLJzbDtCCWzGDq3ocaLy8D8SKYQgXlPFW8izgkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fixedbugs\\Desktop\\Github\\Whereisthelove\\Admin\\Admin.csproj",
+  "projectFilePath": "E:\\Github\\Whereisthelove\\Admin\\Admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fixedbugs\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\fixedbugs\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

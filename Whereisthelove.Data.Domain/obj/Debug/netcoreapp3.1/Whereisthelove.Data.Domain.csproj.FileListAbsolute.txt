@@ -16,3 +16,12 @@ C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\
 C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.csproj.CoreCompileInputs.cache
 C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
 C:\Users\fixedbugs\Desktop\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.deps.json
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\bin\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.csprojAssemblyReference.cache
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.AssemblyInfoInputs.cache
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.AssemblyInfo.cs
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.csproj.CoreCompileInputs.cache
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.dll
+E:\Github\Whereisthelove\Whereisthelove.Data.Domain\obj\Debug\netcoreapp3.1\Whereisthelove.Data.Domain.pdb
