@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Admin.Validation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -31,6 +33,12 @@ namespace Admin
             services.AddScoped<IAdminRepository, AdminRepository>();
             services.AddScoped<IPeopleRepository, PeopleRepository>();
             services.AddControllersWithViews();
+
+            services.AddControllers().AddFluentValidation(fv =>
+            {
+                fv.RunDefaultMvcValidationAfterFluentValidationExecutes = false;
+                fv.RegisterValidatorsFromAssemblyContaining<PeopleValidation>();
+            });
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,EntityContext db)
         {
