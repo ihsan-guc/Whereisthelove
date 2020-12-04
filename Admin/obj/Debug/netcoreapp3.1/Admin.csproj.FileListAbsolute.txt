@@ -93,6 +93,3 @@ C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razo
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\People\List.cshtml.g.cs
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\People\PeopleDelete.cshtml.g.cs
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\People\_CreateEdit.cshtml.g.cs
-C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\bin\Debug\netcoreapp3.1\FluentValidation.dll
-C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

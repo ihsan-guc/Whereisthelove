@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "BLbBRcw5UgxM6HZ5J2OUIXHSu+hjXpmVsbxc7wIILmYCBFy3J6o8wMWCGFhNuT9O8X7t9QURga6dXDRtj/W9rA==",
+  "dgSpecHash": "5jCgp29nyBKOAqDMxgJ+W1Wy9Xoh9apQ7AD4w0Gi7zwdeVZ4cYZYGA8JdRfo/sKi8YRXAITr9Tbl/rDilG8XCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\EysanGuc\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
-    "C:\\Users\\EysanGuc\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
-    "C:\\Users\\EysanGuc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\EysanGuc\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\EysanGuc\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\EysanGuc\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.1.1\\microsoft.aspnetcore.authentication.core.2.1.1.nupkg.sha512",
