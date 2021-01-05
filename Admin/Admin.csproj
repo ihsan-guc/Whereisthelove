@@ -6,12 +6,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="7.6.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Whereisthelove.Data.Dal\Whereisthelove.Data.Dal.csproj" />
     <ProjectReference Include="..\Whereisthelove.Data.Domain\Whereisthelove.Data.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
 </Project>

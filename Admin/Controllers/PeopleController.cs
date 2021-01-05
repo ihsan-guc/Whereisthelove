@@ -1,16 +1,18 @@
-﻿using Admin.Models.PeopleViewModel;
+﻿using Admin.Core;
+using Admin.Models.PeopleViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using X.PagedList;
 using Whereisthelove.Data.Domain.Entities;
+using X.PagedList;
 namespace Admin.Controllers
 {
+    [Authorize]
     [Route("People")]
     public class PeopleController : BaseController
     {
+
         [Route("Index")]
         public IActionResult Index(int? page)
         {
@@ -30,7 +32,7 @@ namespace Admin.Controllers
         [HttpPost]
         [Route("Create")]
         [ValidateAntiForgeryToken]
-        public IActionResult CreateConfirmed(PeopleCEViewModel model)
+        public async Task<IActionResult> CreateConfirmed(PeopleCEViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -39,7 +41,7 @@ namespace Admin.Controllers
                     Id = Guid.NewGuid(),
                     FirstName = model.FirstName,
                     LastName = model.LastName,
-                    Image = model.Image,
+                    Image = await FileManager.FileImageSaveAsync(model.Image),
                     Description = model.Description,
                     Detail = model.Detail,
                     News = model.News,
@@ -60,7 +62,7 @@ namespace Admin.Controllers
                 Id = model.Id,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                Image = model.Image,
+                ImagePath = model.Image,
                 Description = model.Description,
                 Detail = model.Detail,
                 News = model.News,
@@ -71,14 +73,15 @@ namespace Admin.Controllers
 
         [HttpPost]
         [Route("Edit")]
-        public IActionResult EditConfirmed(PeopleCEViewModel model)
+        public async Task<IActionResult> EditConfirmed(PeopleCEViewModel model)
         {
             if (ModelState.IsValid)
             {
                 var entity = UnitOfWork.PeopleRepository.GetById(model.Id);
                 entity.FirstName = model.FirstName;
                 entity.LastName = model.LastName;
-                entity.Image = model.Image;
+                FileManager.ImageDelete(model.ImagePath);
+                entity.Image = await FileManager.FileImageSaveAsync(model.Image);
                 entity.Title = model.Title;
                 entity.News = model.News;
                 entity.Detail = model.Detail;
@@ -108,6 +111,7 @@ namespace Admin.Controllers
         public IActionResult DeleteConfirmed(Guid id)
         {
             var entity = UnitOfWork.PeopleRepository.GetById(id);
+            FileManager.ImageDelete(entity.Image);
             UnitOfWork.PeopleRepository.Delete(entity);
             UnitOfWork.Commit();
             return RedirectToAction("Index", "People");

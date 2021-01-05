@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Admin.Core;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -25,11 +26,21 @@ namespace Admin
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:50000").AllowAnyHeader().AllowAnyMethod();
+                    });
+            });
+
             var entityContextDB = Configuration.GetConnectionString("EntityContextDB");
             services.AddDbContext<EntityContext>(opt => opt.UseSqlServer(entityContextDB));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAdminRepository, AdminRepository>();
             services.AddScoped<IPeopleRepository, PeopleRepository>();
+            services.AddScoped<IFileManager, FileManager>();
             services.AddControllersWithViews();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,EntityContext db)
@@ -69,7 +80,7 @@ namespace Admin
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Anasayfa}/{action=Index}/{id?}");
             });
         }
     }
