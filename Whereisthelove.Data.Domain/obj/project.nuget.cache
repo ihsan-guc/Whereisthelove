@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+MmirK+C2qMza18u5igMenY7KxEgm6BJ9XocZipAeiD1SP1HlLLeKpAmkGrsHijnJLpalzT9bCVPehbznqyRnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EysanGuc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "vdTENSCz6/r0hykip5+2/QWKO43+ErZ/TfJbzjh/1S39pSJG8lVY/ro2/OyoGzm/3R3Znh24bRd59GuahBqwNQ==",
+  "success": true,
+  "projectFilePath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 015d28dcd537e372a72fe9b0126120af25f90ff8
   "logs": []
 }

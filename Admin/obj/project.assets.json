@@ -9708,25 +9708,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EysanGuc\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\fixedbugs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
+      "projectUniqueName": "E:\\Github\\Whereisthelove\\Admin\\Admin.csproj",
       "projectName": "Admin",
-      "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
-      "packagesPath": "C:\\Users\\EysanGuc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\obj\\",
+      "projectPath": "E:\\Github\\Whereisthelove\\Admin\\Admin.csproj",
+      "packagesPath": "C:\\Users\\fixedbugs\\.nuget\\packages\\",
+      "outputPath": "E:\\Github\\Whereisthelove\\Admin\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\EysanGuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\fixedbugs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9739,11 +9734,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
-              "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
+            "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
+              "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj"
             },
-            "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
-              "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
+            "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
+              "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
             }
           }
         }

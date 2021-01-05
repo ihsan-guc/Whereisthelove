@@ -42,6 +42,12 @@ namespace Admin
             services.AddScoped<IPeopleRepository, PeopleRepository>();
             services.AddScoped<IFileManager, FileManager>();
             services.AddControllersWithViews();
+            services.AddAuthentication("CookieAuth")
+                .AddCookie("CookieAuth", x =>
+                {
+                    x.Cookie.Name = "Grandmas.Cookie";
+                    x.LoginPath = "/Account/SignIn";
+                });
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,EntityContext db)
         {
@@ -60,7 +66,7 @@ namespace Admin
                 db.ApplicationAdmins.Add(new ApplicationAdmin()
                 {
                     Id = Guid.NewGuid(),
-                    Email = "ihsanguc.33@gmail.com",
+                    Email = "admin@gmail.com",
                     Password = "123",
                     UserName = "IhsanOmer"
                 });

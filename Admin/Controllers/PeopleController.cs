@@ -5,11 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using Whereisthelove.Data.Domain.Entities;
-using X.PagedList;
+using Microsoft.AspNetCore.Authorization;
+
 namespace Admin.Controllers
 {
     [Authorize]
     [Route("People")]
+    [Authorize]
     public class PeopleController : BaseController
     {
 
