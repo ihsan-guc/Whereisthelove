@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "ClykfB9k4pSdDRjRsYajh8BfRGSLxsOBFL0doNBQGvQIgvyhWX7M3KQLsjqxquR7XU4liP0Mikkmk4SWglJlrg==",
-=======
-  "dgSpecHash": "5jCgp29nyBKOAqDMxgJ+W1Wy9Xoh9apQ7AD4w0Gi7zwdeVZ4cYZYGA8JdRfo/sKi8YRXAITr9Tbl/rDilG8XCQ==",
->>>>>>> parent of 43d4c40... .
   "success": true,
   "projectFilePath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
   "expectedPackageFiles": [

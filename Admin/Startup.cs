@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-﻿using Admin.Core;
+using Admin.Core;
 using Microsoft.AspNetCore.Builder;
-=======
-﻿using Microsoft.AspNetCore.Builder;
->>>>>>> parent of 43d4c40... .
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Whereisthelove.Data.Dal;
 using Whereisthelove.Data.Dal.Abstract;
 using Whereisthelove.Data.Dal.Concrete;
@@ -46,17 +38,14 @@ namespace Admin
             services.AddScoped<IPeopleRepository, PeopleRepository>();
             services.AddScoped<IFileManager, FileManager>();
             services.AddControllersWithViews();
-<<<<<<< HEAD
             services.AddAuthentication("CookieAuth")
                 .AddCookie("CookieAuth", x =>
                 {
                     x.Cookie.Name = "Grandmas.Cookie";
                     x.LoginPath = "/Account/SignIn";
                 });
-=======
->>>>>>> parent of 43d4c40... .
         }
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,EntityContext db)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, EntityContext db)
         {
             if (env.IsDevelopment())
             {
