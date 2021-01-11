@@ -94,6 +94,7 @@ C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razo
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\People\PeopleDelete.cshtml.g.cs
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\People\_CreateEdit.cshtml.g.cs
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignIn.cshtml.g.cs
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\EysanGuc\source\repos\Whereisthelove\Admin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
@@ -363,3 +364,5 @@ E:\Github\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Admin.dll
 E:\Github\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Admin.pdb
 E:\Github\Whereisthelove\Admin\obj\Debug\netcoreapp3.1\Admin.genruntimeconfig.cache
 >>>>>>> 015d28dcd537e372a72fe9b0126120af25f90ff8
+=======
+>>>>>>> parent of 43d4c40... .

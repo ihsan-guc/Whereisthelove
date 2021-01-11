@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using Admin.Core;
 using Microsoft.AspNetCore.Builder;
+=======
+﻿using Microsoft.AspNetCore.Builder;
+>>>>>>> parent of 43d4c40... .
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -42,12 +46,15 @@ namespace Admin
             services.AddScoped<IPeopleRepository, PeopleRepository>();
             services.AddScoped<IFileManager, FileManager>();
             services.AddControllersWithViews();
+<<<<<<< HEAD
             services.AddAuthentication("CookieAuth")
                 .AddCookie("CookieAuth", x =>
                 {
                     x.Cookie.Name = "Grandmas.Cookie";
                     x.LoginPath = "/Account/SignIn";
                 });
+=======
+>>>>>>> parent of 43d4c40... .
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,EntityContext db)
         {
