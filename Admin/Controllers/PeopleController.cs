@@ -1,11 +1,10 @@
-﻿using Admin.Core;
-using Admin.Models.PeopleViewModel;
+﻿using Admin.Models.PeopleViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using Whereisthelove.Data.Domain.Entities;
-using Microsoft.AspNetCore.Authorization;
+using X.PagedList;
 
 namespace Admin.Controllers
 {

@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {}
+    "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {}
   },
   "projects": {
-    "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
+    "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj",
         "projectName": "Whereisthelove.Data.Dal",
-        "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj",
-        "packagesPath": "C:\\Users\\fixedbugs\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Dal\\obj\\",
+        "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\Whereisthelove.Data.Dal.csproj",
+        "packagesPath": "C:\\Users\\EysanGuc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Dal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fixedbugs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EysanGuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
-                "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
+              "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
+                "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj"
               }
             }
           }
@@ -59,12 +63,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -74,18 +72,22 @@
         }
       }
     },
-    "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
+    "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
         "projectName": "Whereisthelove.Data.Domain",
-        "projectPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
-        "packagesPath": "C:\\Users\\fixedbugs\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\Whereisthelove\\Whereisthelove.Data.Domain\\obj\\",
+        "projectPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
+        "packagesPath": "C:\\Users\\EysanGuc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fixedbugs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\EysanGuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -119,12 +121,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
