@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jR9H8cSQZMgiPCkkjYLOpwHQ3owMsTGnL7W7iwhafUbjDiyPWL/GhctehOUp0CZXoWgmrrb0Yp74m1Y7Q6zK/A==",
+  "dgSpecHash": "zd0zEOo9n6YqwAxbymGqP8vL8j3wGUOdWCamYYa8IQU3o/7ZhG4lpb85w/F5DPGTbfq1g1So3nVQfNkW3WBvEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\Whereisthelove.Data.Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Whereisthelove.Data.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ClykfB9k4pSdDRjRsYajh8BfRGSLxsOBFL0doNBQGvQIgvyhWX7M3KQLsjqxquR7XU4liP0Mikkmk4SWglJlrg==",
+  "dgSpecHash": "TbPJYeVyRXwwJXnaW/0rec3sUH2eOxfsMhttOx2zgdz6NXVeYNPQDkE/sf3a/DhRscsWM07HiAkqvomlnQ4r/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\Admin.csproj",
   "expectedPackageFiles": [
@@ -203,12 +203,5 @@
     "C:\\Users\\EysanGuc\\.nuget\\packages\\x.pagedlist\\7.6.0\\x.pagedlist.7.6.0.nupkg.sha512",
     "C:\\Users\\EysanGuc\\.nuget\\packages\\x.pagedlist.mvc.core\\7.6.0\\x.pagedlist.mvc.core.7.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\EysanGuc\\source\\repos\\Whereisthelove\\Admin\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
