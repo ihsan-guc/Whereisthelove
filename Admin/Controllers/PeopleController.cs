@@ -42,12 +42,12 @@ namespace Admin.Controllers
                     Id = Guid.NewGuid(),
                     FirstName = model.FirstName,
                     LastName = model.LastName,
-                    Image = await FileManager.FileImageSaveAsync(model.Image),
                     Description = model.Description,
                     Detail = model.Detail,
                     News = model.News,
                     Title = model.Title
                 };
+                People.Image = await FileManager.FileImageSaveAsync(model.Image);
                 UnitOfWork.PeopleRepository.Add(People);
                 UnitOfWork.Commit();
                 return RedirectToAction("Index", "People");

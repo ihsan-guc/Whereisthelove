@@ -56,6 +56,7 @@ namespace Admin
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
             bool itCreated = db.Database.EnsureCreated();
             if (itCreated)
             {
