@@ -18,12 +18,10 @@
                                 <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                             <div class="col-md-6">
-                                @Html.Label("Resim")
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="Image" name="Image" required>
-                                    <label class="custom-file-label" for="validatedCustomFile">Resim</label>
-                                    @*<div class="invalid-feedback">Example invalid custom file feedback</div>*@
-                                </div>
+                                @Html.Label("Talep Türü")
+                                <select asp-for="DeathDateId" asp-items="@ViewBag.DeathDate" class="form-control">
+                                </select>
+                                <span asp-validation-for="DeathDateId" class="text-danger"></span>
                             </div>
                             <div class="col-md-6">
                                 @Html.Label("Başlık")
@@ -39,6 +37,44 @@
                                 @Html.Label("Açıklama")
                                 @Html.TextBoxFor(m => m.Description, new { placeholder = "Açıklama", @class = "form-control mb-2 mr-sm-2" })
                                 <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Ölüm Yeri")
+                                @Html.TextBoxFor(m => m.PlaceDeath, new { placeholder = "Ölüm Yeri", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="PlaceDeath" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Fail Durumu")
+                                @Html.TextBoxFor(m => m.Subject, new { placeholder = "Fail Durumu", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="Subject" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Öldüren Kişi")
+                                @Html.TextBoxFor(m => m.ByWhom, new { placeholder = "Öldüren Kişi", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="ByWhom" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Koruma Talebi")
+                                @Html.TextBoxFor(m => m.IsProtection, new { placeholder = "Koruma Talebi", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="IsProtection" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Öldürülme Şekli")
+                                @Html.TextBoxFor(m => m.WayKilled, new { placeholder = "Öldürülme Şekli", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="WayKilled" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                @Html.Label("Haber Kaynağı")
+                                @Html.TextBoxFor(m => m.SourceLink, new { placeholder = "Haber Kaynağı", @class = "form-control mb-2 mr-sm-2" })
+                                <span asp-validation-for="SourceLink" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-12">
+                                @Html.Label("Resim")
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="Image" name="Image" required>
+                                    <label class="custom-file-label" for="validatedCustomFile">Resim</label>
+                                    @*<div class="invalid-feedback">Example invalid custom file feedback</div>*@
+                                </div>
                             </div>
                             <div class="col-md-12">
                                 @Html.Label("Detay")

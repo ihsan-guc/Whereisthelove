@@ -37,6 +37,7 @@ namespace Admin
             services.AddScoped<IAdminRepository, AdminRepository>();
             services.AddScoped<IPeopleRepository, PeopleRepository>();
             services.AddScoped<IFileManager, FileManager>();
+            services.AddScoped<IDeathDateRepository, DeathDateRepository>();
             services.AddControllersWithViews();
             services.AddAuthentication("CookieAuth")
                 .AddCookie("CookieAuth", x =>

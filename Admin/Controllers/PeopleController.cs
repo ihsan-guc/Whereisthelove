@@ -1,7 +1,9 @@
 ﻿using Admin.Models.PeopleViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Whereisthelove.Data.Domain.Entities;
 using X.PagedList;
@@ -28,6 +30,8 @@ namespace Admin.Controllers
         [Route("Create")]
         public IActionResult Create()
         {
+            ViewBag.DeathDate = UnitOfWork.DeathDateRepository.GetQueryable().OrderByDescending(p=>p.Year)
+                .Select(a => new SelectListItem() { Value = a.Id.ToString(), Text = a.Year.ToString()}).ToList();
             return View();
         }
         [HttpPost]
@@ -45,19 +49,24 @@ namespace Admin.Controllers
                     Description = model.Description,
                     Detail = model.Detail,
                     News = model.News,
-                    Title = model.Title
+                    Title = model.Title,
+                    DeathDateId = model.DeathDateId
                 };
                 People.Image = await FileManager.FileImageSaveAsync(model.Image);
                 UnitOfWork.PeopleRepository.Add(People);
                 UnitOfWork.Commit();
                 return RedirectToAction("Index", "People");
             }
+            ViewBag.DeathDate = UnitOfWork.DeathDateRepository.GetQueryable().OrderBy(p => p.Year)
+                .Select(a => new SelectListItem() { Value = a.Id.ToString(), Text = a.Year.ToString() }).ToList();
             return View();
         }
         [Route("Edit")]
         public IActionResult Edit(Guid id)
         {
             var model = UnitOfWork.PeopleRepository.GetById(id);
+            ViewBag.DeathDate = UnitOfWork.DeathDateRepository.GetQueryable().OrderBy(p => p.Year)
+                .Select(a => new SelectListItem() { Value = a.Id.ToString(), Text = a.Year.ToString() }).ToList();
             var People = new PeopleCEViewModel()
             {
                 Id = model.Id,
@@ -67,7 +76,8 @@ namespace Admin.Controllers
                 Description = model.Description,
                 Detail = model.Detail,
                 News = model.News,
-                Title = model.Title
+                Title = model.Title,
+                DeathDateId = model.DeathDateId
             };
             return View(People);
         }
@@ -90,6 +100,8 @@ namespace Admin.Controllers
                 UnitOfWork.Commit();
                 return RedirectToAction("Index", "People");
             }
+            ViewBag.DeathDate = UnitOfWork.DeathDateRepository.GetQueryable().OrderBy(p => p.Year)
+                .Select(a => new SelectListItem() { Value = a.Id.ToString(), Text = a.Year.ToString() }).ToList();
             return View();
         }
 

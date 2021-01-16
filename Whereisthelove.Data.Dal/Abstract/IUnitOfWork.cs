@@ -7,5 +7,6 @@ namespace Whereisthelove.Data.Dal.Abstract
         void Commit();
         IPeopleRepository PeopleRepository { get; set; }
         IAdminRepository AdminRepository { get; set; }
+        IDeathDateRepository DeathDateRepository { get; set; }
     }
 }
