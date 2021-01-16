@@ -43,7 +43,7 @@
             <div class="row w-100">
                 @foreach (var item in Model.DeathDateList)
                 {
-                    <div class="col-lg-2 text-center">
+                    <div class="col-2 text-center">
                         <a href="@Url.Action("Index","Anasayfa",new { year = item.Year })">@item.Year</a>
                     </div>
                 }

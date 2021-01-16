@@ -50,7 +50,14 @@ namespace Admin.Controllers
                     Detail = model.Detail,
                     News = model.News,
                     Title = model.Title,
-                    DeathDateId = model.DeathDateId
+                    DeathDateId = model.DeathDateId,
+                    ByWhom = model.ByWhom,
+                    WhyKilled = model.WhyKilled,
+                    PlaceDeath = model.PlaceDeath,
+                    Subject = model.Subject,
+                    IsProtection = model.IsProtection,
+                    SourceLink = model.SourceLink,
+                    WayKilled = model.WayKilled
                 };
                 People.Image = await FileManager.FileImageSaveAsync(model.Image);
                 UnitOfWork.PeopleRepository.Add(People);
@@ -72,12 +79,18 @@ namespace Admin.Controllers
                 Id = model.Id,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                ImagePath = model.Image,
                 Description = model.Description,
                 Detail = model.Detail,
                 News = model.News,
                 Title = model.Title,
-                DeathDateId = model.DeathDateId
+                DeathDateId = model.DeathDateId,
+                ByWhom = model.ByWhom,
+                WhyKilled = model.WhyKilled,
+                PlaceDeath = model.PlaceDeath,
+                Subject = model.Subject,
+                IsProtection = model.IsProtection,
+                SourceLink = model.SourceLink,
+                WayKilled = model.WayKilled
             };
             return View(People);
         }
@@ -97,6 +110,14 @@ namespace Admin.Controllers
                 entity.News = model.News;
                 entity.Detail = model.Detail;
                 entity.Description = model.Description;
+                entity.DeathDateId = model.DeathDateId;
+                entity.ByWhom = model.ByWhom;
+                entity.WhyKilled = model.WhyKilled;
+                entity.PlaceDeath = model.PlaceDeath;
+                entity.Subject = model.Subject;
+                entity.IsProtection = model.IsProtection;
+                entity.SourceLink = model.SourceLink;
+                entity.WayKilled = model.WayKilled;
                 UnitOfWork.Commit();
                 return RedirectToAction("Index", "People");
             }
